@@ -39,7 +39,7 @@ img {
 
 /* Common Styles */
 .container {
-  max-width: 335px;
+  max-width: 425px;
   margin: auto;
 }
 
@@ -134,6 +134,8 @@ img {
 
 .about-me-image-wrapper img {
   width: 100%;
+  max-width: 335px;
+  margin: auto;
   border-radius: 50%;
   display: block;
   margin-bottom: 7.5rem;
@@ -192,4 +194,35 @@ img {
 
 .footer-list a {
   font-size: 3.6rem;
+}
+
+@media screen and ( min-width: 768px ) {
+  .header-container {
+    max-width: 768px;
+    background-position: 110% 130%;
+    background-size: 425px;
+  }
+
+  .header-content {
+    left: 0;
+    transform: translateX(0);
+    width: initial;
+    text-align: left;
+    bottom: unset;
+    top: 40%;
+  }
+
+  .header-content h1 {
+    font-size: 5rem;
+    line-height: 55px;
+    margin-bottom: 2.5rem;
+  }
+
+  .header-content span {
+    display: block;
+  }
+
+  .header-content p {
+    font-size: 2.4rem;
+  }
 }
