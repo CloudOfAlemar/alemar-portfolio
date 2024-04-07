@@ -53,6 +53,14 @@ img {
   margin-bottom: -.5rem;
 }
 
+.section-heading-area h2 {
+  color: var( --purple );
+}
+
+.section-heading-area span {
+  color: var( --dark-purple );
+}
+
 .project-card {
   position: relative;
   overflow: hidden;
