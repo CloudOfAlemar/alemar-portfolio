@@ -32,6 +32,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+}
+
 /* Header Styles */
 .header {
   height: 650px;
