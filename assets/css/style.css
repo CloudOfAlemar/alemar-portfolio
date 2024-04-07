@@ -97,8 +97,22 @@ a {
 
 .about-me-image {
   width: 100%;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 7.5rem;
+}
+
+.about-me-heading-area {
+  text-align: center;
+  margin-bottom: 2.5rem;
 }
 
 .about-me-header-image {
   width: 50px;
+  display: inline-block;
+  margin-bottom: -.5rem;
+}
+
+.about-me-description-1 {
+  margin-bottom: 2.5rem;
 }
