@@ -60,11 +60,12 @@ a {
 .header-nav-link {
   padding: 1rem 0 1rem 1rem;
   text-align: right;
-  transition: color 250ms;
+  transition: color 250ms, font-weight 250ms;
 }
 
 .header-nav-link:hover {
   color: var( --dark-purple );
+  font-weight: 800;
 }
 
 .header-content {
@@ -87,4 +88,10 @@ a {
 .header-content p {
   width: 300px;
   margin: auto;
+}
+
+/* About Me */
+
+.about-me-image {
+  width: 100%;
 }
