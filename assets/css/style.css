@@ -91,7 +91,14 @@ a {
 }
 
 /* About Me */
+.about-me {
+  padding: 76px var( --edges-mobile );
+}
 
 .about-me-image {
   width: 100%;
+}
+
+.about-me-header-image {
+  width: 50px;
 }
