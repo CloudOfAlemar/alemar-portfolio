@@ -1,0 +1,90 @@
+:root {
+  --purple: hsl( 229, 100%, 66% );
+  --dark-purple: hsl( 259, 98%, 18% );
+  --grayish-dark-purple: hsla( 259, 98%, 18%, 25% );
+  --yellow: hsl( 49, 100%, 46% );
+  --edges-mobile: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: .625rem;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  color: var( --dark-purple );
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  display: block;
+  text-decoration: none;
+}
+
+/* Header Styles */
+.header {
+  height: 650px;
+  padding: var( --edges-mobile ) var( --edges-mobile ) 7.6rem;
+}
+
+.header-container {
+  position: relative;
+  height: 100%;
+  background: url( "../images/hero-img.svg" ) no-repeat;
+  background-size: 375px;
+  background-position: center;
+}
+
+.header-logo {
+  width: 150px;
+}
+
+.header-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: var( --grayish-dark-purple );
+}
+
+.header-nav-link {
+  padding: 1rem 0 1rem 1rem;
+  text-align: right;
+  transition: color 250ms;
+}
+
+.header-nav-link:hover {
+  color: var( --dark-purple );
+}
+
+.header-content {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX( -50% );
+  width: 100%;
+  text-align: center;
+}
+
+.header-content h1 {
+  color: var( --purple );
+}
+
+.header-content span {
+  color: var( --yellow );
+}
+
+.header-content p {
+  width: 300px;
+  margin: auto;
+}
