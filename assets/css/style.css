@@ -263,3 +263,38 @@ img {
     font-size: 5rem;
   }
 }
+
+@media screen and ( min-width: 1024px ) {
+  .container {
+    max-width: 950px;
+  }
+
+  .header-container {
+    background-size: 475px;
+    background-position: 110% 275%;
+}
+  }
+
+  .header-logo {
+    width: 175px;
+  }
+
+  .header-nav-link {
+    font-size: 2rem;
+  }
+
+  .header-content {
+    top: 35%;
+  }
+
+  .header-content h1 {
+    font-size: 8rem;
+    line-height: 80px;
+  }
+
+  .header-content p {
+    font-size: 3rem;
+    max-width: 475px;
+    margin: 0;
+  }
+}
