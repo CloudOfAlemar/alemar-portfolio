@@ -272,7 +272,6 @@ img {
   .header-container {
     background-size: 475px;
     background-position: 110% 275%;
-}
   }
 
   .header-logo {
@@ -296,5 +295,19 @@ img {
     font-size: 3rem;
     max-width: 475px;
     margin: 0;
+  }
+
+  .about-me-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .about-me-image-wrapper,
+  .about-me-content {
+    width: 50%;
+  }
+
+  .about-me-image-wrapper img {
+    margin-bottom: 0;
   }
 }
