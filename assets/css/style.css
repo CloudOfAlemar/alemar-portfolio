@@ -39,7 +39,7 @@ img {
 
 /* Common Styles */
 .container {
-  max-width: 425px;
+  max-width: 600px;
   margin: auto;
 }
 
@@ -66,6 +66,8 @@ img {
   position: relative;
   overflow: hidden;
   margin-bottom: 4rem;
+  box-shadow: 0px 10px 25px var( --grayish-dark-purple );
+  border-radius: 16px;
 }
 
 /* Header Styles */
@@ -123,7 +125,7 @@ img {
 }
 
 .header-content p {
-  width: 300px;
+  max-width: 300px;
   margin: auto;
 }
 
@@ -139,6 +141,10 @@ img {
   border-radius: 50%;
   display: block;
   margin-bottom: 7.5rem;
+}
+
+.about-me-description-area p {
+  line-height: 1.7;
 }
 
 .about-me-description-1 {
@@ -197,10 +203,37 @@ img {
 }
 
 @media screen and ( min-width: 768px ) {
+  .project-card {
+    margin-bottom: 7rem;
+  }
+
+  .section-heading-area {
+    margin-bottom: 4rem;
+  }
+
+  .section-heading-area img {
+    width: 75px;
+  }
+
+  .section-heading-area h2 {
+    font-size: 4rem;
+  }
+
+  .header,
+  .about-me,
+  .my-work,
+  .footer {
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+
+  .header {
+    padding-top: 5rem;
+  }
+
   .header-container {
     max-width: 768px;
-    background-position: 110% 130%;
-    background-size: 425px;
+    background-position: 115% 130%;
   }
 
   .header-content {
@@ -213,9 +246,9 @@ img {
   }
 
   .header-content h1 {
-    font-size: 5rem;
-    line-height: 55px;
-    margin-bottom: 2.5rem;
+    font-size: 4rem;
+    line-height: 50px;
+    margin-bottom: 1.5rem;
   }
 
   .header-content span {
@@ -223,6 +256,10 @@ img {
   }
 
   .header-content p {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
+  }
+
+  .footer-list a {
+    font-size: 5rem;
   }
 }
