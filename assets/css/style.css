@@ -203,6 +203,10 @@ img {
   font-size: 3.6rem;
 }
 
+.footer-list li:last-of-type {
+  color: var( --yellow );
+}
+
 @media screen and ( min-width: 768px ) {
   .project-card {
     margin-bottom: 7rem;
@@ -258,6 +262,19 @@ img {
 
   .header-content p {
     font-size: 2.2rem;
+  }
+
+  .project-card,
+  .footer-list li {
+    transition: transform 250ms;
+  }
+
+  .project-card:hover {
+    transform: scale( 1.05 );
+  }
+
+  .footer-list li:hover {
+    transform: scale( 1.2 );
   }
 
   .footer-list a {
